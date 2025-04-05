@@ -126,7 +126,7 @@
     const phone = document.getElementById('phone').value.trim();
 
     if (!/^[A-Z][a-zA-Z\s]{1,}$/.test(name)) {
-      showMessage('Name must start with a capital letter and contain only letters and spaces.');
+      showMessage('Name must start with a capital letter and contain only letters.');
       return;
     }
   
